@@ -1,0 +1,30 @@
+BODY {
+	FONT-SIZE: 14px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 14px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 14px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.lesssmalltext {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.BigHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.SubHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.SmallHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#pubabstract {
+	VERTICAL-ALIGN: top; WIDTH: 400px
+}
+#pubabstracttext {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: text-top; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

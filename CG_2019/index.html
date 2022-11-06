@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../style/cstyle.css" />
+<title>2018-2019年度第二学期 00106501: 计算机图形学</title>
+</head>
+
+<body>
+ 
+<h1 align="center"><strong>00106501: 计算机图形学</strong></h1>
+<p align="center"><strong>(02/2019-06/2019)</strong></p>
+
+<p align="center"><a href="http://math.ustc.edu.cn/" class="SimSun Medium">数学科学学院,</a> <a href="http://www.ustc.edu.cn/" class="SimSun Medium">中国科学技术大学</a></p>
+
+<p align="center"></p>
+<hr/>
+
+<p align="center">
+<a href="#Announcements">重要通知</a>     
+<a href="#General">课程信息</a>     
+<a href="#Presentations">课程讲义</a>         
+<a href="#Textbooks">教材与参考书籍</a>     
+<a href="#Courseworks">作业</a>    
+<a href="#Links">常用连接</a>
+</p>
+<hr/>
+
+<h2 align="left"><a name="Announcements" id="Announcements" class="SimHei Medium">重要通知</a></h2>
+<ul class="square">
+  <li>6月06日: 期末考试，时间：上午9:45-11:45，地点：5106教室.</li>
+  <li>5月28日: <a href="./slides/Final review.pdf">期末考试复习提纲</a>.</li>
+  <li>答疑时间：周六晚7：00－9：00，五教5206。
+  <li>2月26日: 本学期课程开始.</li>
+</ul>
+<hr/>
+
+<h2 align="left"><a name="General" id="General" class="SimHei Medium">课程信息</a></h2>
+<table width="800" border="0">
+  <tbody>
+    <tr>
+      <td width="120"><strong>上课时间</strong></td>
+      <td>周二(1, 2), 周四(3, 4)</td>
+    </tr>
+    <tr>
+      <td width="120"><strong>教&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;室</strong></td>
+      <td>第五教学楼5106, 东区, 中国科学技术大学</td>
+    </tr>    
+    <tr>
+      <td width="120"><strong>教&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;师</strong></td>
+      <td><a href="http://staff.ustc.edu.cn/~tongwh/">童伟华</a>(<a href="mailto:tongwh@ust.edu.cn">tongwh@ustc.edu.cn</a>)</td>
+    </tr>
+    <tr>
+      <td width="120"><strong>助&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教</strong></td>
+      <td>柴双明(<a href="mailto:kfckfckf@mail.ustc.edu.cn">kfckfckf@mail.ustc.edu.cn</a>)</td>
+    </tr>    
+    <tr>
+      <td width="120"><strong>预修知识</strong></td>
+      <td> 微积分, 线性代数, C/C++编程, 数据结构</td>
+    </tr>
+    <tr>
+      <td width="120"><strong>课程主页</strong></td>
+      <td><a href="http://staff.ustc.edu.cn/~tongwh/CG_2019/index.html">http://staff.ustc.edu.cn/~tongwh/CG_2019/index.html</a></td>
+    </tr>
+    <tr>
+      <td width="120"><strong>作业提交</strong></td>
+      <td><a href="http://www.smartchair.org/CG_2019/">http://www.smartchair.org/CG_2019/</a></td>
+    </tr>
+  </tbody>
+</table>
+<hr/>
+
+<h2 align="left"><a name="Presentations" id="Syllabus" class="SimHei Medium">课程讲义</a></h2>
+
+<table width="1000" border="0">
+  <tr valign="top">
+    <td width="500"><strong class="SimHei Small">第一章 图形系统</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch01_01.pdf">计算机图形学应用</a></li>
+		<li><a href="./slides/cg_ch01_02.pdf">图形系统简介</a></li>
+		<li><a href="./slides/cg_ch01_03.pdf">图像成像模型</a></li>
+		<li><a href="./slides/cg_ch01_04.pdf">图像流水线系统及编程接口</a></li>
+	  </ul>
+    </td>
+    
+    <td width="500"><strong class="SimHei Small">第二章 OpenGL编程</strong>
+      <ul class="square">
+        <li><a href="./slides/cg_ch02_01.pdf">图形编程接口发展简史</a></li>
+        <li><a href="./slides/cg_ch02_02.pdf">完整的程序</a>[<a href="./codes/ch02/simple.c">simple.c</a>, <a href="./codes/ch02/QtOpenGL.zip">QtOpenGL.zip</a>]</li>
+        <li><a href="./slides/cg_ch02_03.pdf">二维图形程序</a>[<a href="./codes/ch02/gasket.c">gasket.c</a>,<a href="./codes/ch02/gasket2.c">gasket2.c</a>,<a href="./codes/ch02/contour.c">contour.c</a>]</li>
+        <li><a href="./slides/cg_ch02_04.pdf">三维图形程序</a>[<a href="./codes/ch02/tetra.c">tetra.c</a>]</li>
+      </ul>
+    </td>
+  </tr>
+  
+  <tr valign="top">
+    <td width="500"><strong class="SimHei Small">第三章 几何对象与变换</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch03_01.pdf">几何</a>[<a href="./codes/ch03/morphing.cpp">morphing.cpp</a>]</li>
+		<li><a href="./slides/cg_ch03_02.pdf">表示</a></li>
+		<li><a href="./slides/cg_ch03_03.pdf">变换</a></li>
+		<li><a href="./slides/cg_ch03_04.pdf">OpenGL中的变换</a>[<a href="./codes/ch03/trackball.c">trackball.c]</a></li>        
+   		<li><a href="./slides/cg_ch03_05.pdf">多边形网格模型[<a href="./codes/ch03/cube.c">cube.c</a>,<a href="./codes/ch03/cubev.c">cubev.c,]</a></li>
+	  </ul>
+    </td>
+    
+    <td width="500"><strong class="SimHei Small">第四章 三维观察</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch04_01.pdf">经典视图</a></li>
+		<li><a href="./slides/cg_ch04_02.pdf">计算机视图</a>[<a href="./codes/ch04/cubeview.c">cubeview.c</a>]</li>
+		<li><a href="./slides/cg_ch04_03.pdf">投影矩阵</a>[<a href="./codes/ch04/shadow.c">shadow.c</a>]</li>
+</li>
+	  </ul>
+    </td>
+  </tr>
+
+  <tr valign="top">
+    <td width="500"><strong class="SimHei Small">第五章 明暗处理</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch05_01.pdf">基本算法</a></li>
+		<li><a href="./slides/cg_ch05_02.pdf">OpenGL中的明暗处理</a>[<a href="./codes/ch05/sphere.c">sphere.c</a>]</li>
+	  </ul>
+    </td>
+    
+    <td width="500"><strong class="SimHei Small">第六章 可编程着色器</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch06_01.pdf">可编程流水线</a></li>
+		<li><a href="./slides/cg_ch06_02.pdf">GLSL(I)</a></li>
+		<li><a href="./slides/cg_ch06_03.pdf">GLSL(II)</a></li>
+		<li><a href="./slides/cg_ch06_04.pdf">GLSL(III)</a>[<a href="./codes/ch06/Wave.zip">Wave.zip</a>, <a href="./codes/ch06/Wave2.zip">Wave2.zip</a>, <a href="./codes/ch06/Morph.zip">Morph.zip</a>, <a href="./codes/ch06/Particle.zip">Particle.zip</a>, <a href="./codes/ch06/Nonphoto.zip">Nonphoto.zip</a>, <a href="./codes/ch06/Phong.zip">Phong.zip</a>, <a href="./codes/ch06/Cubemap.zip">Cubemap.zip</a>, <a href="./codes/ch06/Bumpmap.zip">Bumpmap.zip</a>]</li>
+	  </ul>
+    </td>    
+  </tr> 
+  
+  <tr valign="top">
+    <td width="500"><strong class="SimHei Small">第七章 从顶点到片元</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch07_01.pdf">框架与剪裁</a></li>
+		<li><a href="./slides/cg_ch07_02.pdf">隐藏面消除</a></li>
+		<li><a href="./slides/cg_ch07_03.pdf">光栅化算法</a></li>
+		<li><a href="./slides/cg_ch07_04.pdf">显示中的问题</a></li>        
+	  </ul>
+    </td>
+    
+    <td width="500"><strong class="SimHei Small">第八章 离散技术</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch08_01.pdf">缓冲区</a>[<a href="./codes/ch04/rubber_banding.c">rubber_banding.c</a>]</li>
+		<li><a href="./slides/cg_ch08_02.pdf">纹理映射</a>[<a href="./codes/ch08/tex_cube.c">tex_cube.c</a>]</li>
+		<li><a href="./slides/cg_ch08_03.pdf">OpenGL中的纹理映射</a>[<a href="./codes/ch08/texgen.c">texgen.c</a>]</li>
+	  </ul>
+    </td>
+  </tr>
+  
+  <tr valign="top">
+    <td width="500"><strong class="SimHei Small">第九章 高级绘制方法</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch09_01.pdf">光线跟踪方法</a></li>
+		<li><a href="./slides/cg_ch09_02.pdf">辐射度方法</a></li>
+		<li><a href="./slides/cg_ch09_03.pdf">高级绘制软件</a></li>
+	  </ul>
+    </td>
+    
+    <td width="500"><strong class="SimHei Small">第十章 建模方法</strong>
+      <ul class="square">
+		<li><a href="./slides/cg_ch10_01.pdf">曲线与曲面的表示</a></li>
+		<li><a href="./slides/cg_ch10_02.pdf">参数曲线曲面的设计</a></li>
+		<li><a href="./slides/cg_ch10_03.pdf">参数曲线曲面的显示</a></li>
+		<li><a href="./slides/cg_ch10_04.pdf">层次建模</a></li>
+		<li><a href="./slides/cg_ch10_05.pdf">场景图</a></li>        
+	  </ul>
+    </td>
+  </tr>
+  
+  <tr valign="top">
+    <td width="500"><strong class="SimHei Small">附讲</strong>
+      <ul class="square">
+        <li><a href="./slides/cg_app_01.pdf">附讲一：编程简介</a></li>
+        <li><a href="./slides/cg_app_02.pdf">附讲二：C/C++编程(一)</a></li>
+        <li><a href="./slides/cg_app_03.pdf">附讲三：C/C++编程(二)</a></li>
+        <li><a href="./slides/cg_app_04.pdf">附讲四：C/C++编程(三)</a></li>
+        <li><a href="./slides/cg_app_05.pdf">附讲五：Windows编程(API)</a>[<a href="./codes/app/Windows_simple.cpp">Windows_simple.cpp</a>]</li>
+        <li><a href="./slides/cg_app_06.pdf">附讲六：Qt编程(一)</a></li>
+        <li><a href="./slides/cg_app_07.pdf">附讲七：Qt编程(二)</a></li>
+        <li><a href="./slides/cg_app_08.pdf">附讲八：OpenGL编程(一)</a></li>
+        <li><a href="./slides/cg_app_09.pdf">附讲九：OpenGL编程(二)</a></li>
+        <li><a href="./slides/cg_app_10.pdf">附讲十：OpenGL编程(三)</a></li>
+	  </ul>
+    </td>
+    
+    <td width="500"><strong class="SimHei Small">实用软件介绍</strong>
+      <ul class="square">
+        <li><a href="./slides/Rhino_introduction.pdf">附讲一：Rhino建模入门</a>[<a href="https://pan.baidu.com/s/1ktRvG19dtm1Dm9FQoGmobQ">资料下载链接</a>, 提取码：1u7b]</li>
+        <li><a href="./slides/Grasshopper_introduction.pdf">附讲二：Grasshopper入门</a>[<a href="https://pan.baidu.com/s/1BJk5IvlvqGjRqfEAMNVYWg">资料下载链接</a>, 提取码：ubuf]</li>
+        <li><a href="./slides/PsPrAi_introduction.pdf">附讲三：PhotoShop, Illustrator, Premiere入门</a>[<a href="https://pan.baidu.com/s/1OhMnopVX1iYSWRF7DbhyPw">资料下载链接</a>, 提取码：gnii]</li>
+        <li><a href="./slides/Unity_introduction.pdf">附讲四：Unity入门</a>[<a href="https://pan.baidu.com/s/1KXyggjRSkMUMiKa2a20ZbQ">资料下载链接</a>, 提取码：n7ma]</li>        
+	  </ul>
+    </td>
+    
+  </tr>    
+        
+</table>
+
+<p class="KaiTi Small">致谢: 本课程讲义参考了<a href="http://www.cs.unm.edu/~angel/" class="Small">Prof. Edward Angel</a>、<a href="http://staff.ustc.edu.cn/~dengjs/" class="Small">邓建松教授</a>、<a href="http://staff.ustc.edu.cn/~lgliu/" class="Small">刘利刚教授</a>及<a href="http://staff.ustc.edu.cn/~zhuang/" class="Small">黄章进副教授</a>的教学内容。</p>
+      
+<h2 align="left"><a name="Textbooks" id="Textbooks" class="SimHei Medium">教材与参考书籍</a></h2>
+<ul class="square">
+  <li style="color:blue">E. Angel. Interactive Computer Graphics — A top-down approach using OpenGL. 5th or 6th Ed., 2011.(中译版: 交互式计算机图形学-基于OpenGL的自顶向下方法(第五版或第六版), 电子工业出版社, 2012. 教材)</li>
+  <li style="color:blue">S. Marschner, P. Shirley, M. Ashikhmin, et al. Fundamentals of Computer Graphics, 4th Ed., 2016. </li>
+  <li style="color:blue">D. F. Rogers. Procedural Elements for Computer Graphics, 2nd Ed., 1998.(影印版: 计算机图形学的算法基础, 机械工业出版社, 2002. 有中译版)</li>
+  <li style="color:blue">J. D. Foley et al. Computer Graphics - Principles and Practice, 2nd Ed in C, 1995.(影印版: 计算机图形学原理及实践-C语言描述, 机械工业出版社, 2002.) </li>  
+  <li>S. R. Buss. 3D Computer Graphics: A Mathematical introduction with OpenGL. Cambridge University Press, 2003.</li>
+  <li>R. Goldman. An Integrated Introduction to Computer Graphics and Geometric Modeling. 2009. (中译版: 计算机图形学与几何造型导论
+  , 清华大学出版社, 2011)</li>
+  <li style="color:blue">J. M. Kessenich, G. Sellers, and D. Shreiner. OpenGL Programming Guide: The Official Guide to Learning OpenGL, 7th or 9th Ed., 2017.(中译版: OpenGL编程指南(第7版或第九版), 王锐等译，机械工业出版社, 2018)</li>
+  <li style="color:blue">R. J. Rost and B. Licea-Kane. OpenGL Shading Language, 3rd Ed., 2009.</li>
+  <li>G. Sellers, R. S. Wright, and N. Haemel. OpenGL SuperBible: Comprehensive Tutorial and Reference, 7th Ed., 2015.</li>
+</ul>
+<hr/>
+
+<h2><a name="Courseworks" id="Courseworks" class="SimHei Medium">作业</a></h2>
+<p class="SimHei"><strong>作业提交方式及要求</strong></p>
+<ul class="square" style="color:blue">
+  <li>编程作业须独立完成，不允许出现抄袭现象(一经发现做无效处理)，作业通过SmartChair系统提交，具体参见<a href="./assignments/smartchair.pptx">《作业递交系统说明》</a>；编程作业须在规定时间内提交，逾期无法提交，特殊情况请与助教老师说明，另做处理.</li>
+  <li>编程环境请尽量使用Visual Studio 2013 + Qt 5.5或更高版本，程序编写、调试、测试完毕后，请点击Bulid\Clean按钮，清理不必要的文件（例如：.sdf文件）；请检查是否符合编程规范(特别是代码排版、注释书写、变量命名等)；请修改代码以消除编译窗口内所有的warning和error.</li>
+  <li>编程完毕后，请将工程文件、源代码等放置在一个目录中，使用压缩软件打包成一个*.zip或*.rar文件，文件命名方式为：学号_姓名_H作业编号(例如：PB16001001_张三_H01.zip或PB16001001__张三_H01.rar)，然后通过SmartChair系统提交.</li>
+</ul>
+
+<ol class="square SimSun Small">
+  <li><a href="./assignments/ass_01.zip">C++编程练习：动态数组(Dynamic Array)类的封装</a>，发布时间: 2月26日，截止时间: 3月12日.</li>
+  <li><a href="./assignments/ass_02.zip">C++编程练习：高效的Dynamic Array类</a>，发布时间: 2月28日，截止时间: 3月14.</li>
+  <li><a href="./assignments/ass_03.zip">C++编程练习：动态数组(Dynamic Array)类的封装(模板)</a>，发布时间: 3月05，截止时间：3月19日.</li>
+  <li><a href="./assignments/ass_04.zip">C++编程练习：学习使用STL</a>，发布时间: 3月07日，截止时间：3月21日.</li>
+  <li><a href="./assignments/ass_05.zip">图形界面编程练习：Windows的API编程</a>，发布时间: 3月12日，截止时间：3月26日.</li>        
+  <li><a href="./assignments/ass_06.zip">图形界面编程练习：基本的Qt编程</a>，发布时间: 3月14日，截止时间：3月28日.</li>
+  <li><a href="./assignments/ass_07.zip">OpenGL编程练习：OpenGL编程入门</a>，发布时间: 3月19日，截止时间：4月02日.</li>
+  <li><a href="./assignments/ass_08.zip">OpenGL编程练习：OpenGL绘制方式</a>，发布时间: 3月21日，截止时间：4月04日.</li>
+  <li><a href="./assignments/ass_09.zip">OpenGL编程练习：坐标系与三维观察</a>，发布时间: 4月02日，截止时间：4月16日.</li>
+  <li><a href="./assignments/ass_10.zip">OpenGL编程练习：GLSL编程入门</a>，发布时间: 4月11日，截止时间：4月25日.</li>     
+  <li><a href="./assignments/ass_11.zip">实用软件练习：Rhino建模入门</a>，发布时间: 4月16日，截止时间：4月30日.</li>
+  <li><a href="./assignments/ass_12.zip">OpenGL编程练习：Phong模型的实现</a>，发布时间: 4月25日，截止时间：5月12.</li>
+  <li><a href="./assignments/ass_13.zip">Final Project：团队合作项目</a>，发布时间: 4月28日，截止时间：5月26.</li>
+</ol>
+<h2 align="left"><a name="Links" id="Links" class="SimHei Medium">常用链接</a></h2>
+<b class="SimHei Small">OpenGL相关资料</b>
+<ul class="square">
+  <li><a href="http://www.opengl.org/">OpenGL官方网站</a>: 有OpenGL核心库(<a href="https://www.khronos.org/registry/OpenGL/specs/gl/glspec46.core.pdf">OpenGL 4.6 Core Profile</a>, <a href="https://www.khronos.org/registry/OpenGL/specs/gl/glspec46.compatibility.pdf">OpenGL 4.6 Compatibility Profile)</a>, OpenGL着色语言(GLSL)的规范(<a href="https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf">GLSL 4.60</a>),  参考手册(<a href="https://www.khronos.org/registry/OpenGL-Refpages/gl4/">OpenGL 4.6</a>)和<a href="http://www.opengl.org/sdk/">SDK</a>, GLU库(<a href="http://www.opengl.org/documentation/specs/glu1_3.pdf">GLU 1.3</a>)等资料.</li>
+  <li><a href="https://www.khronos.org/opengl/wiki/">OpenGL 百科全集</a>: 非常全面和权威的解释</li>
+  <li><a href="https://learnopengl.com/">Learn OpenGL</a>: 学习OpenGL的优秀网站，<a href="https://learnopengl-cn.github.io/">中文版</a></li>
+  <li><a href="https://www.glprogramming.com/red/">The Official Guide to Learning OpenGL</a>, 2nd Ed., online</li>
+</ul>
+
+<b class="SimHei Small">常用软件</b>
+<ul class="square">
+  <li><a href="https://www.qt.io/">Qt</a>: 图形界面开发工具</li>
+  <li><a href="http://freeglut.sourceforge.net/">FreeGLUT</a>: 简单的图形界面开发库. 使用和安装: 以Windows 7 x64为例，使用时把glut32.dll放在c:\windows\system32\. 用MS Visual Studio(例如2013)编译时, 把头文件glut.h放在C:\Program Files (x86)\Windows Kits\8.1\Include\um\gl目录, 库文件glut32.lib放在C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64目录.</li>
+  <li><a href="http://glew.sourceforge.net/">GLEW</a>: Open<U>GL</U> <U>E</U>xtension <U>W</U>rangler Library, 开源的跨平台 OpenGL 扩展加载库.</li>
+  <li><a href="http://www.realtech-vr.com/glview/">GLview</a>: 查看OpenGL实现版本和所支持的扩展的小工具.</li>
+  <li><a href="http://www.povray.org/">POV-Ray官方网站</a>: 开源的光线跟踪软件.</li>
+  <li><a href="http://www.meshlab.net/">MeshLab官方网站</a>: 网格模型显示、编辑软件.</li>  
+</ul>
+
+<b class="SimHei Small">内部资源(仅供课堂使用, 请勿外传)</b>
+
+<ul class="square">
+  <li>S. B. Lippman, J. Lajoie. C++ Primer, 5th Ed., Addison-Wesley, 2013(有影印版及中文版，电子工业出版社)</li>
+  <li><a href="http://mindview.net/Books/TICPP/ThinkingInCPP2e.html#DownloadingTheBook">Bruce Eckel</a>. Thinking in C++, 2nd Ed., <a href="./materials/Thinking in C++ 1.pdf">Volume 1 </a>and <a href="./materials/Thinking in C++ 2.pdf">Volume 2</a>. Free Electronic Book(有影印版及中文版，机械工业出版社)</li>  
+  <li>J. Blanchette, M. Summerfield. C++ GUI Programming with Qt 4, 2nd Ed., Prentice Hall, 2008(有中文版，C++ GUI Qt 4编程，闫峰欣等译，电子工业出版社)</li>
+  <li>霍亚飞. Qt Creator快速入门. 北京航天航空大学出版社. 2012</li>
+  <li><a href="./materials/Google C++ Style Guide.pdf">Google C++编程风格指南</a></li>
+  <li><a href="./materials/Coding Style.ppt">编程规范和技巧</a><a href="./materials/Google C++ Style Guide.pdf"></a></li>
+  <li><a href="./materials/Coding Skills.ppt">代码编辑效率及技巧</a></li>
+  <li><a href="./materials/Coding Style Guidelines.doc">编程规范指导(Coding Style Guidelines)</a></li>
+  <li><a href="./materials/Hungarian Notation.doc">匈牙利命名规则(Hungarian Notation)</a></li>
+  <li><a href="./materials/Windows Programming Model.pdf">Windows编程模型</a></li>
+</ul>
+<hr/>
+
+<table width="668">
+<tr>
+<td width="684"><b>&copy; 2019 Weihua Tong</b><br/>
+<small><b>
+<script language="JavaScript"> 
+document.write("Last update: " + document.lastModified + "") 
+</script> 
+</b></small>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

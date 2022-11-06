@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* style file for Chinese webpage*/
+
+.SimSun{
+	font-family:宋体;
+}
+
+.SimHei{
+    font-family:黑体;
+}
+
+.KaiTi{
+	font-family:楷体_GB2312;
+}
+
+.Big{
+	font-size:32px;
+}
+
+.Medium{
+	font-size:20px;
+}
+
+.Small{
+	font-size:18px;
+}
+
+body{
+	font-family:'Times New Roman', Times, serif, 黑体, Georgia;
+	font-size:20px;
+	background-color:#FFFFFF;
+}
+
+a,p,tr,ul{
+	font-size:18px;
+}
+
+h1{
+	background-color:#FFCC33; 
+	text-indent:1em; 
+	font-size:36px;
+	padding:10px;
+}
+
+h2,h3,h4,h5,h6{
+	background-color:#CFDFE7; 
+	text-indent:1em; 
+	font-size:24px;
+	padding:8px;
+}
+
+ul.square{
+	list-style-type:square;
+}
+
+ul.disc{
+	list-style-type:disc;
+}
+

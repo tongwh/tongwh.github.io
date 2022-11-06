@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../style/cstyle.css" />
+<title>2022-2023年度第一学期 MATH2001.05: 计算方法</title>
+</head>
+
+<body>
+ 
+<h1 align="center"><strong>MATH2001.05: 计算方法</strong></h1>
+<p align="center"><strong>(08/2022-12/2022)</strong></p>
+
+<p align="center"><a href="http://math.ustc.edu.cn/" class="SimSun Medium">数学科学学院,</a> <a href="http://www.ustc.edu.cn/" class="SimSun Medium">中国科学技术大学</a></p>
+
+<p align="center"></p>
+<hr/>
+
+<p align="center">
+<a href="#Announcements">重要通知</a>     
+<a href="#General">课程信息</a>     
+<a href="#Presentations">课程讲义</a>         
+<a href="#Textbooks">教材与参考书籍</a>     
+<a href="#Courseworks">编程作业</a>    
+<a href="#Links">常用连接</a>
+</p>
+<hr/>
+
+<h2 align="left"><a name="Announcements" id="Announcements" class="SimHei Medium">重要通知</a></h2>
+<ul class="square">
+  <li>因疫情原因, 自10月24日开始, 本课程改为线上教学, 请同学们参见教务处的通知(<a href="https://www.teach.ustc.edu.cn/notice/notice-teaching/15051.html">https://www.teach.ustc.edu.cn/notice/notice-teaching/15051.html</a>).</li>
+  <li>答疑时间(第三周开始): 每周六晚19:00-20:30, 教室3C301.</li>
+  <li>08月29日: 本学期课程开始.</li>
+</ul>
+<hr/>
+
+<h2 align="left"><a name="General" id="General" class="SimHei Medium">课程信息</a></h2>
+<table width="800" border="0">
+  <tbody>
+    <tr>
+      <td width="120"><strong>上课时间</strong></td>
+      <td>周一(6, 7); 周三(1, 2)</td>
+    </tr>
+    <tr>
+      <td width="120"><strong>教&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;室</strong></td>
+      <td>3C301, 西区, 中国科学技术大学</td>
+    </tr>    
+    <tr>
+      <td width="120"><strong>教&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;师</strong></td>
+      <td><a href="http://staff.ustc.edu.cn/~tongwh/">童伟华</a>(<a href="mailto:tongwh@ust.edu.cn">tongwh@ustc.edu.cn</a>)</td>
+    </tr>
+    <tr>
+      <td width="120"><strong>助&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教</strong></td>
+      <td>冯一潇, 左览欣, QQ群：943158322</td>
+    </tr>    
+    <tr>
+      <td width="120"><strong>预修知识</strong></td>
+      <td> 微积分, 线性代数, C/C++编程, 数据结构</td>
+    </tr>
+    <tr>
+      <td width="120"><strong>课程主页</strong></td>
+      <td><a href="http://staff.ustc.edu.cn/~tongwh/NA_2022/index.html">http://staff.ustc.edu.cn/~tongwh/NA_2022/index.html</a></td>
+    </tr>
+  </tbody>
+</table>
+<hr/>
+
+<h2 align="left"><a name="Presentations" id="Syllabus" class="SimHei Medium">课程讲义</a></h2>
+<table width="800" border="0">
+  <tr valign="top">
+    <td width="400"><strong class="SimHei Small">第零章 绪论</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_00.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch00/round.cpp">round.cpp</a>, <a href="./codes/ch00/show_bytes.cpp">sshow_bytes.cpp</a>,<a href="./codes/ch00/quadratic.cpp"> quadratic.cpp</a>, <a href="./codes/ch00/pi.cpp">pi.cpp</a>, <a href="./codes/ch00/unstable.cpp">unstable.cpp</a>]</a></li>
+	  </ul>
+    </td>
+    
+    <td width="400"><strong class="SimHei Small">第一章 插值</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_01.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch01/lagrange.m">lagrange.m</a>, <a href="./codes/ch01/runge.m">runge.m</a>]</a></li>
+      </ul>
+    </td> 
+    
+  <tr valign="top">
+    <td width="400"><strong class="SimHei Small">第二章 曲线拟合的最小二乘法</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_02.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch02/linlsf.m">linlsf.m</a>, <a href="./codes/ch02/quadlsf.m">quadlsf.m</a>]</a></li>
+      </ul>
+    </td>
+    
+    <td width="400"><strong class="SimHei Small">第三章 数值微分和数值积分</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_03.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch03/adapquad.m">adapquad.m</a>, <a href="./codes/ch03/romberg.m">romberg.m</a>]</a></li>
+      </ul>
+    </td>  
+  </tr>
+  
+  <tr valign="top">
+    <td width="400"><strong class="SimHei Small">第四章 非线性方程求根</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_04.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch04/bisect.m">bisect.m</a>]</a></li>
+      </ul>
+    </td>
+    
+    <td width="400"><strong class="SimHei Small">第五章 解线性方程组的直接法</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_05.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch05/gauss.m">gauss.m</a>]</a></li>
+      </ul>
+    </td>
+  </tr>
+  
+  <tr valign="top">
+    <td width="400"><strong class="SimHei Small">第六章 解线性方程组的迭代法</strong>
+      <ul class="square">
+	    <li><a href="./slides/ch_06.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch06/jacobi.m">jacobi.m</a>]</a></li>
+      </ul>
+    </td>
+    <td width="400"><strong class="SimHei Small">第七章 计算矩阵的特征值和特征向量</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_07.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch07/powerit.m">powerit.m</a>]</a></li>
+      </ul>
+    </td>  
+  </tr>
+  
+  <tr valign="top">
+    <td width="400"><strong class="SimHei Small">第八章 常微分方程数值解</strong>
+      <ul class="square">
+		<li><a href="./slides/ch_08.pdf">PPT</a></li>      
+		<li>示例代码：</a>[<a href="./codes/ch08/euler.m">euler.m</a>]</a></li>
+      </ul>
+    </td>
+  </tr>
+       
+</table>
+      
+<h2 align="left"><a name="Textbooks" id="Textbooks" class="SimHei Medium">教材与参考书籍</a></h2>
+<ul class="square">
+  <li style="color:black">张韵华, 王新茂,  陈效群, 张瑞. 数值计算方法与算法. 第三版. 科学出版社.</li>
+  <li>童伟华. <a href="./slides/book.pdf">数值计算方法-扩充教程</a>. 自编讲义.</li>
+  <li style="color:blue">D. Kincaid, W. Cheney. Numerical Analysis:  Mathematics of Scientific Computing, 3rd Ed. Thomson Learning Press.(有中译本 与影印本，机械工业出版社)</li>
+  <li style="color:blue">T. Sauer. Numerical Analysis, 3rd Ed. Pearson Education Press.(有中译本与影印本，人民邮电出版社)
+</li>
+</ul>
+<hr/>
+
+<h2><a name="Courseworks" id="Courseworks" class="SimHei Medium">编程作业</a></h2>
+<p class="SimHei"><strong>编程作业提交方式及要求</strong></p>
+<ul class="square" style="color:blue">
+  <li>程序用通用编程语言编写，例如：C/C++，Matlab (不能直接调用相关功能的高级库函数).</li>
+  <li>计算结果使用科学计数法输出，要求到小数点后15位.</li>
+  <li>每次程序作业有截止日期，请在截至日期前提交.</li>
+  <li>通过电子邮件方式提交编程作业，邮件格式如下：
+      <ul>
+      <li>主题：学号_姓名_作业编号，作业编号从1开始， 例如PB21xxx_xxx_xxx</li>
+      <li>内容：程序的输入，程序的输出</li>
+      <li>附件：源代码(请不要包含目标代码和可执行文件)</li>
+      <li>邮件地址：助教老师提供(请不要将作业发到我的信箱中)</li>
+      </ul>
+  </li>
+  <li>所有作业必须自己完成(因无法区分抄袭者与被抄袭者，一旦发现抄袭现象，所有雷同作业均作无效处理!)</li>
+  <li>请同学们把程序提交到Email: fyxustc2022@163.com(序号1-60), zlxustc2022@163.com(序号61-121).</li>
+  <li>截至10月31日, <a href="./assignments/programming.xlsx">前6次编程作业提交情况</a>.</li>
+
+</ul>
+
+<ol class="square SimSun Small">
+  <li><a href="./assignments/ass_01.pdf">计算方法编程练习：级数求和</a>，发布时间：08月31日， 截止时间：09月11日.(<a href="./assignments/ZOJ_1007.pdf">附原题</a>)</li>
+  <li><a href="./assignments/ass_02.pdf">计算方法编程练习：Lagrange插值</a>，发布时间：09月14日，截止时间：09月25日</li> 
+  <li><a href="./assignments/ass_03.pdf">计算方法编程练习：最小二乘法</a>，发布时间：09月19日，截止时间：10月09日.</li>   
+  <li><a href="./assignments/ass_04.pdf">计算方法编程练习：复化数值积分</a>，发布时间：09月28日，截止时间：10月16日.</li>
+  <li><a href="./assignments/ass_05.pdf">计算方法编程练习：非线性方程求根</a>，发布时间：10月08日，截止时间：10月23日.</li>
+  <li><a href="./assignments/ass_06.pdf">计算方法编程练习：解线性方程组的直接法</a>，发布时间：10月12，截止时间：10月30.</li>
+  <li><a href="./assignments/ass_07.pdf">计算方法编程练习：解线性方程组的迭代法</a>，发布时间：10月19，截止时间：11月06日.</li>
+  <li><a href="./assignments/ass_08.pdf">计算方法编程练习：计算矩阵的特征值和特征向量</a>，发布时间：10月26日，截止时间：11月13日.</li>
+  <li><a href="./assignments/ass_09.pdf">计算方法编程练习：常微分方程数值解</a>，发布时间：11月02，截止时间：11月20日.</li>  
+</ol>
+<hr/>
+
+<h2 align="left"><a name="Links" id="Links" class="SimHei Medium">常用链接</a></h2>
+<b class="SimHei Small">常用软件</b>
+<ul class="square">
+  <li><a href="http://www.mathworks.com/">Matlab官方网站</a>: 数值计算软件.</li>
+  <li><a href="http://www.wolfram.com/mathematica/">Mathematica官方网站</a>: 符号与数值计算软件.</li>
+  <li><a href="http://www.maplesoft.com/">Maple官方网站</a>: 符号与数值计算.</a>.</li>  
+</ul>
+<hr/>
+
+<table width="668">
+<tr>
+<td width="684"><b>&copy; 2022 Weihua Tong</b><br/>
+<small><b>
+<script language="JavaScript"> 
+document.write("Last update: " + document.lastModified + "") 
+</script> 
+</b></small>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
